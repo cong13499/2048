@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:weightSum="3"
     tools:context=".MainActivity"
-   android:background="@drawable/bgmainscreen">
+   android:background="@drawable/bgmainscreenlogo">
 
     <LinearLayout
         android:layout_width="match_parent"
