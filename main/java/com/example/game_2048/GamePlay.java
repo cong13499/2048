@@ -164,19 +164,18 @@ public class GamePlay extends AppCompatActivity implements View.OnClickListener 
         if(highScore < score) highScore = score;
         textHighScore.setText(String.valueOf(highScore));
 
-//        Check win game
-        if(winGame() && !won){
-            WinGameDialog winGameDialog = new WinGameDialog();
-            winGameDialog.show(getSupportFragmentManager(), "VICTORY");
-            won = true;
-        }
-
 //        Check lost game
         if(endGame()){
             EndGameDialog endGameDialog = new EndGameDialog();
             endGameDialog.show(getSupportFragmentManager(), "DO IT!");
+        }else{
+            //        Check win game
+            if(winGame() && !won){
+                WinGameDialog winGameDialog = new WinGameDialog();
+                winGameDialog.show(getSupportFragmentManager(), "VICTORY");
+                won = true;
+            }
         }
-
     }
 
     private void setColor(int n, int i, int j) {
