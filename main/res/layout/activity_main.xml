@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:weightSum="3"
     tools:context=".MainActivity"
-   android:background="@drawable/bgmainscreenlogo">
+    android:background="@drawable/bgmainscreenl">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -58,7 +58,7 @@
             android:layout_marginTop="10dp"
             android:layout_weight="1"
             android:background="@drawable/retangel_box3"
-            android:text="HOW TO PLAY"
+            android:text="ABOUT US"
             android:textStyle="bold"
             android:textSize="17dp"/>
     </LinearLayout>

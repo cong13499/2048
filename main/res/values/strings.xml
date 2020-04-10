@@ -1,3 +1,15 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Game2048</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">
+        Nguyễn Thành Công\n
+        Nguyễn Hoàng Anh\n
+        Dương Thị Yến\n
+        Lưu Đắc Hạnh\n
+        Lê Duy Hoàng
+
+
+    </string>
+
 </resources>
